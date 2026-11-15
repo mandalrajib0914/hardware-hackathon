@@ -1,0 +1,16 @@
+# Ignore everything in the root directory
+/*
+
+# Include only these two folders
+!/logger/
+!/rover_logger_v2/
+
+# Include gitignore
+!/.gitignore
+
+# Ignore specific documentation
+/logger/HOW_TO_RECORD.md
+
+# Ignore Python cache
+__pycache__/
+*.pyc
